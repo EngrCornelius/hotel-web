@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'inter',sans-serif;
+    color: rgb(9, 9, 10);
+}
+
+/* typography */
+p, li{
+    font-size: 14.14px;
+}
+.userbox p{
+    font-size: 12.37px;
+    line-height: 1;
+}
+span{
+    font-weight: 700;
+    font-size: 14.14px;
+}
+
+/* spacing */
+nav{
+    /* border: 1px solid; */
+    width: 18.35%;
+    max-width: 235px;
+    height: 100%;
+    max-height: 910px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.up{
+    padding: 21.2px;
+    display: flex;
+    flex-direction: column;
+    gap: 38.87px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 21.2px;
+    padding: 0 14.14px;
+}
+.down{
+    padding-left: 21.2px;
+    padding-right: 21.2px;
+    padding-bottom: 28.27px;
+}
+.down ul{
+gap: 7.07px;
+padding: 0 14.14px;
+}
+.l1, .l2, .l3,.l4, .l5, .l6{
+    padding: 14.14px 0;
+ }
+
+/* image and icon */
+.l1{
+    background-image: url(/images/home-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 21.2px;
+    padding-left: 35.6px;
+}
+.l2{
+    background-image: url(/images/progress-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 21.2px;
+    padding-left: 35.6px;
+}
+.l3{
+    background-image: url(/images/bell-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 21.2px;
+    padding-left: 35.6px;
+}
+.l4{
+    background-image: url(/images/bed-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 21.2px;
+    padding-left: 35.6px;
+}
+.l5{
+    background-image: url(/images/logout.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 21.2px;
+    padding-left: 35.6px;
+}
+.l6{
+    background-image: url(/images/day.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 21.2px;
+    padding-left: 35.6px;
+}
+
+/* color and shape */
+body{
+    background-color: rgb(242, 153, 74);
+}
+nav{
+    background-color: white;
+}
+
+/* profile and search */
+.userbox{
+    display: flex;
+    gap: 10.6px;
+    align-items: center;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 14.14px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 14.14px;
+    padding: 14.14px;
+}
+input{
+    border: none;
+    background: transparent;
+    width: 100%;
+    padding: 8px;
+}
+button{
+    background: transparent;
+    border: none;
+}
+/* switch */
+.light{
+    display: flex;
+    gap: 18.65px;
+    align-items: center;
+}
+.switch{
+    padding-left: 24.74px;
+    padding-top: 3.53px ;
+    padding-bottom: 3.53px ;
+    padding-right: 3.53px ;
+    background-color: rgb(200, 188, 246);
+    border-radius: 14.14px;
+}
+img[alt="icon"]{
+    background-color: rgb(9, 9, 10);
+    border-radius: 12.37px;
+}
+
+/* effect */
+input:focus{
+    outline: none;
+}
+button:hover{
+    cursor: pointer;
+}
